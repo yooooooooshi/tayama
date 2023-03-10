@@ -7,7 +7,6 @@
 <iframe onload='if(submitted){window.location="";}' id=hidden_iframe name=hidden_iframe style=display:none></iframe>
 
 <script type="text/javascript">
-var NGComments = ["死ね","バカ",".exe"]; // 簡易的なNGワードの設定
 var regex = new RegExp(NGComments.join("|"));
 function test(wcheck) {
 	if (wcheck.match(regex) != null) {
